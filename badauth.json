@@ -1,0 +1,18 @@
+{
+  "Licenses": [{
+    "Start": "1577836800000",
+    "End": "1580515200000",
+    "AuthSource": "#startConversationForm input[name='creatorName']",
+    "Authorizations": ["test"],
+    "RecordParser": {
+      "HotNm": ".top-bar-hotel-name",
+      "HotId": ".nav-hotel-id-static",
+      "ResAry": ".reservationRecord",
+      "ResRcd": {
+        "Id": ".bookingInfo .title-main",
+        "Amt": ".totalAmount",
+        "Stat": ".bookingInfo .status"
+      }
+    }
+  }]
+}
