@@ -1,0 +1,17 @@
+{
+  "Licenses": [{
+    "Start": "0",
+    "End": "1577836800000",
+    "Authorizations": ["*"],
+    "RecordParser": {
+      "HotNm": ".top-bar-hotel-name",
+      "HotId": ".nav-hotel-id-static",
+      "ResAry": ".reservationRecord",
+      "ResRcd": {
+        "Id": ".bookingInfo .title-main",
+        "Amt": ".totalAmount",
+        "Stat": ".bookingInfo .status"
+      }
+    }
+  }]
+}
