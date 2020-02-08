@@ -1,7 +1,7 @@
 {
   "Licenses": [{
     "Start": "1577836800000",
-    "End": "1581120000000",
+    "End": "1583020800000",
     "AuthSource": "#startConversationForm input[name='creatorName']",
     "Authorizations": ["*"],
     "RecordParser": {
